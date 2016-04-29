@@ -1,59 +1,59 @@
 * {
-	font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .product-card {
-	display: inline-block;
-	width: 30%;
-	margin: 0.5rem;
-	border: 1px solid lightblue;
+  display: inline-block;
+  width: 30%;
+  margin: 0.5rem;
+  border: 1px solid lightblue;
 }
 
 .product-header {
-	border: 1px dotted lightgray;
-	text-align: center;
+  border: 1px dotted lightgray;
+  text-align: center;
 }
 
 .product-title {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .product-info img {
-	display: block;
-	margin: 0.5rem auto;
-	width: 75%;
+  display: block;
+  margin: 0.5rem auto;
+  width: 75%;
 }
 
 .product-description {
-	text-align: justify;
+  text-align: justify;
 }
 
 .availability {
-	padding: 0.25rem;
-	margin: 0.5rem 0;
-	background-color: darkgrey;
-	color: yellow;
+  padding: 0.25rem;
+  margin: 0.5rem 0;
+  background-color: darkgrey;
+  color: yellow;
 }
 
 .spec-until {
-	font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .product-description,
 .product-specs-content,
 .product-pricing {
-	margin: 0 0.5rem;
+  margin: 0 0.5rem;
 }
 
 .spec-detail,
 .pricing-detail {
-	font-weight: bold;
-	margin-left: 0.75rem;
+  font-weight: bold;
+  margin-left: 0.75rem;
 }
 
 @media (max-width: 680px) {
-	.product-card {
-		margin: 0;
-	}
+  .product-card {
+    margin: 0;
+  }
 }
